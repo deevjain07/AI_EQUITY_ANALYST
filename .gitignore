@@ -1,36 +1,7 @@
-# Environment Variables (Critical)
 .env
-
-# Application-Specific Generated Data
 scanner_results.json
 *.pdf
-
-# Streamlit
-.streamlit/secrets.toml
-
-# Virtual Environments
-venv/
-env/
-.venv/
-ENV/
-
-# Python Cache & Build
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-build/
-dist/
-*.egg-info/
-*.egg
-.pytest_cache/
-
-# CrewAI & Logging
-*.log
-*.sqlite3
-*.db
-
-# OS & Editor Files
-.DS_Store
-.vscode/
-.idea/
+*.pyc
+venv/
+.venv/
